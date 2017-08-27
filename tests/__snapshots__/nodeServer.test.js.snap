@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`nodeServer processRequest 1`] = `
+"{ query: 'mutation uploadAvatarMutation($id: ID! $avatar: Upload!) {uploadAvatar(id: $id avatar: $avatar) }',
+  variables: 
+   { id: '598645558d905ae18524bc55',
+     avatar: 
+      Stream {
+        domain: null,
+        _events: {},
+        _eventsCount: 0,
+        _maxListeners: undefined,
+        readable: true,
+        headers: [Object],
+        name: 'avatar.gif',
+        filename: 'avatar.gif',
+        mime: 'image/gif',
+        transferEncoding: 'binary',
+        transferBuffer: '',
+        size: 317866,
+        type: 'image/gif' } },
+  operationName: 'uploadAvatarMutation' }"
+`;

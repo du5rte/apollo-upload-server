@@ -1,0 +1,13 @@
+{
+  "query": "mutation uploadAvatarMutation($id: ID! $avatar: Upload!) {uploadAvatar(id: $id avatar: $avatar) }",
+  "variables": {
+    "id": "598645558d905ae18524bc55",
+    "avatar": {
+      "lastModified": 1503606654000,
+      "name": "avatar.gif",
+      "size": 317866,
+      "type": "image/gif"
+    }
+  },
+  "operationName": "uploadAvatarMutation"
+}
